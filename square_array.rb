@@ -6,6 +6,8 @@ def square_array(array)
   new_array
 end
 
+square_array([1,2,3,4])
+
 def square_array_collect(array)
   array.collect do |num|
     num*num
@@ -13,4 +15,3 @@ def square_array_collect(array)
 end
 
 square_array_collect([1,2,3,4])
-square_array([1,2,3,4])
