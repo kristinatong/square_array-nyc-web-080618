@@ -5,3 +5,11 @@ def square_array(array)
   end
   new_array
 end
+
+def square_array_collect(array)
+  new_array = []
+  array.collect do |num|
+    new_array.push(num*num)
+  end
+  new_array
+end
