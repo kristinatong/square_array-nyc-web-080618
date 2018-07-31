@@ -13,3 +13,4 @@ def square_array_collect(array)
 end
 
 square_array_collect([1,2,3,4])
+square_array([1,2,3,4])
