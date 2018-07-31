@@ -10,5 +10,4 @@ def square_array_collect(array)
   array.collect do |num|
     num*num
   end
-  array
 end
